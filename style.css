@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Myriad Pro; }
+
+.wrapper {
+  width: 1300px;
+  margin: auto; }
+  .wrapper header {
+    width: 100%;
+    height: 80px;
+    background: #01203d; }
+    .wrapper header p {
+      padding-top: 36px;
+      text-align: right;
+      padding-right: 60px;
+      color: #66798a;
+      font-size: 12px;
+      font-family: Myriad Pro; }
+      .wrapper header p span {
+        color: #008cba;
+        margin-left: 25px; }
+  .wrapper nav {
+    width: 100%;
+    height: 60px;
+    background: #01203d; }
+    .wrapper nav img {
+      margin-left: 60px;
+      margin-top: 10px;
+      float: left; }
+    .wrapper nav ul {
+      list-style: none;
+      display: inline-block; }
+      .wrapper nav ul li {
+        display: inline-block;
+        margin-top: 15px;
+        margin-left: 38px; }
+        .wrapper nav ul li a {
+          text-decoration: none;
+          color: #66798a;
+          font-size: 16px;
+          font-family: Myriad Pro; }
+          .wrapper nav ul li a:hover {
+            color: #ffffff; }
+    .wrapper nav div.contact {
+      float: right;
+      display: inline-block;
+      color: #ffffff;
+      margin-bottom: 10px; }
+      .wrapper nav div.contact button.demo {
+        width: 125px;
+        height: 47px;
+        background: #01203d;
+        border: 1px solid #66798a;
+        border-radius: 5px;
+        color: #ffffff;
+        cursor: pointer;
+        margin-right: 20px; }
+        .wrapper nav div.contact button.demo:hover {
+          background: #81bc1e; }
+      .wrapper nav div.contact button.signup {
+        width: 125px;
+        height: 47px;
+        background: #01203d;
+        border: 1px solid #66798a;
+        border-radius: 5px;
+        color: #ffffff;
+        cursor: pointer;
+        background: #81bc1e;
+        margin-right: 65px; }
+      .wrapper nav div.contact b {
+        margin-right: 40px;
+        margin-left: 5px; }
+      .wrapper nav div.contact img {
+        margin-top: 15pxs; }
+  .wrapper div.content div.khoi1 {
+    width: 100%;
+    height: 410px;
+    background: url("images/cogai.png"); }
+    .wrapper div.content div.khoi1 div.register {
+      width: 535px;
+      background: #034888;
+      height: 410px;
+      float: left; }
+      .wrapper div.content div.khoi1 div.register p.title {
+        font-size: 38px;
+        color: #ffffff;
+        margin-top: 35px;
+        margin-left: 55px; }
+      .wrapper div.content div.khoi1 div.register p.content {
+        color: #ffffff;
+        font-size: 12px;
+        line-height: 18px;
+        margin-left: 55px;
+        word-spacing: 3px; }
+      .wrapper div.content div.khoi1 div.register form {
+        margin-top: 25px;
+        margin-left: 55px; }
+        .wrapper div.content div.khoi1 div.register form #email {
+          width: 445px;
+          height: 35px;
+          border: 0px;
+          border-radius: 3px;
+          margin-bottom: 15px;
+          padding: 15px;
+          box-sizing: border-box; }
+        .wrapper div.content div.khoi1 div.register form #pass {
+          width: 220px;
+          height: 35px;
+          border: 0px;
+          border-radius: 3px;
+          margin-bottom: 15px;
+          padding: 15px;
+          box-sizing: border-box; }
+        .wrapper div.content div.khoi1 div.register form #phone {
+          width: 220px;
+          height: 35px;
+          border: 0px;
+          border-radius: 3px;
+          margin-bottom: 15px;
+          padding: 15px;
+          box-sizing: border-box; }
+      .wrapper div.content div.khoi1 div.register .orange {
+        display: inline-block;
+        width: 220px;
+        height: 65px;
+        border: 0px;
+        background: #e0741d;
+        margin-left: 55px;
+        text-align: center;
+        box-sizing: border-box;
+        color: #ffffff;
+        padding: 15px; }
+        .wrapper div.content div.khoi1 div.register .orange p:nth-child(1) {
+          font-size: 19px; }
+        .wrapper div.content div.khoi1 div.register .orange p:last-child {
+          font-size: 10px; }
+      .wrapper div.content div.khoi1 div.register .green {
+        display: inline-blocks;
+        width: 220px;
+        height: 65px;
+        border: 0px;
+        background: #72a61a;
+        float: right;
+        margin-right: 36px;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 15px; }
+        .wrapper div.content div.khoi1 div.register .green p:nth-child(1) {
+          font-size: 19px;
+          color: #ffffff; }
+        .wrapper div.content div.khoi1 div.register .green p:last-child {
+          font-size: 10px;
+          color: #ffffff; }
+      .wrapper div.content div.khoi1 div.register .cuoicung {
+        font-size: 9px;
+        margin-top: 20px;
+        margin-left: 60px;
+        color: #66798a; }
+        .wrapper div.content div.khoi1 div.register .cuoicung span {
+          color: #ffffff; }
+    .wrapper div.content div.khoi1 div.banner {
+      width: 765px;
+      height: 410px;
+      float: right;
+      position: relative; }
+      .wrapper div.content div.khoi1 div.banner img {
+        position: absolute;
+        top: 10px;
+        right: 155px; }
+  .wrapper div.thuonghieu {
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid gray; }
+    .wrapper div.thuonghieu p {
+      font-size: 12px;
+      line-height: 100px;
+      padding-left: 100px;
+      color: #66798a;
+      display: inline-block; }
+    .wrapper div.thuonghieu div.logo {
+      float: right;
+      padding-right: 340px;
+      padding-top: 25px; }
+      .wrapper div.thuonghieu div.logo img {
+        width: 50px;
+        height: 50px;
+        margin-left: 35px; }
+  .wrapper div.gioithieu {
+    width: 100%;
+    height: 480px;
+    border-bottom: 1px solid gray; }
+    .wrapper div.gioithieu p {
+      text-align: center;
+      margin-top: 45px;
+      font-size: 23px; }
+    .wrapper div.gioithieu div.cackhoi {
+      margin-top: 55px; }
+      .wrapper div.gioithieu div.cackhoi div.motkhoi:first-child {
+        margin-left: 105px; }
+      .wrapper div.gioithieu div.cackhoi div.motkhoi {
+        width: 220px;
+        float: left;
+        margin-left: 75px; }
+        .wrapper div.gioithieu div.cackhoi div.motkhoi div.chuaanh {
+          padding: auto;
+          margin-left: 30%; }
+          .wrapper div.gioithieu div.cackhoi div.motkhoi div.chuaanh img {
+            width: 100px;
+            height: 100px;
+            text-align: center; }
+        .wrapper div.gioithieu div.cackhoi div.motkhoi div.title {
+          text-align: center;
+          font-size: 18px;
+          color: #0f5599;
+          margin-top: 55px;
+          margin-bottom: 25px; }
+        .wrapper div.gioithieu div.cackhoi div.motkhoi p {
+          font-size: 14px; }
+  .wrapper div.camnhan {
+    width: 100%;
+    height: 245px;
+    border-bottom: 1px solid gray; }
+    .wrapper div.camnhan div.khoi1 {
+      width: 710px;
+      height: 245px;
+      float: left;
+      margin-left: 100px;
+      margin-top: 55px; }
+      .wrapper div.camnhan div.khoi1 span {
+        display: inline-block;
+        font-size: 19px;
+        margin-bottom: 25px; }
+      .wrapper div.camnhan div.khoi1 p {
+        font-size: 12px;
+        margin-bottom: 50px; }
+    .wrapper div.camnhan img {
+      margin-left: 186px;
+      margin-top: 40px; }
+  .wrapper div#footer {
+    clear: both;
+    height: 265px;
+    width: 100%; }
+    .wrapper div#footer div.khoifooter {
+      width: 325px;
+      float: left; }
+      .wrapper div#footer div.khoifooter h3 {
+        margin-left: 105px;
+        padding-bottom: 15px;
+        font-size: 12px; }
+      .wrapper div#footer div.khoifooter ul {
+        list-style: none;
+        margin-left: 105px; }
+        .wrapper div#footer div.khoifooter ul li {
+          color: #67adcd;
+          font-size: 10px; }
+      .wrapper div#footer div.khoifooter p {
+        padding-top: 0px;
+        font-size: 10px;
+        padding-bottom: 5px; }
+    .wrapper div#footer p {
+      clear: both;
+      padding-top: 50px;
+      padding-left: 105px; }
+
+/*# sourceMappingURL=style.css.map */

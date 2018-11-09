@@ -1,0 +1,297 @@
+$xanhdam: #01203d
+$mauchuheader: #66798a
+$fontsizeheader: 12px
+$fontfamilyHeader: Myriad Pro
+$signin: #008cba
+$mautrang: #ffffff
+$signup: #81bc1e
+$xanhnhat: #034888
+$widthwrapper: 1300px
+$widthregister: 535px
+
+=buttonheader()
+	width: 125px
+	height: 47px
+	background: $xanhdam
+	border: 1px solid $mauchuheader
+	border-radius: 5px
+	color: $mautrang
+	cursor: pointer
+
+*
+	margin: 0
+	padding: 0
+	font-family: $fontfamilyHeader
+
+.wrapper
+	width: $widthwrapper
+	margin: auto
+	header
+		width: 100%
+		height: 80px
+		background: $xanhdam
+		p
+			padding-top: 36px
+			text-align: right
+			padding-right: 60px
+			color: $mauchuheader
+			font:
+				size: 12px
+				family: $fontfamilyHeader
+			span
+				color: $signin
+				margin-left: 25px
+	nav
+		width: 100%
+		height: 60px
+		background: $xanhdam
+		img
+			margin-left: 60px
+			margin-top: 10px
+			float: left
+		ul
+			list-style: none
+			display: inline-block
+			li
+				display: inline-block
+				margin-top: 15px
+				margin-left: 38px
+				a
+					&:hover
+						color: $mautrang
+					text-decoration: none
+					color: $mauchuheader
+					font:
+						size: 16px
+						family: $fontfamilyHeader
+		div.contact
+			float: right
+			display: inline-block
+			color: $mautrang
+			margin-bottom: 10px
+			button.demo
+				&:hover
+					background: $signup
+				+buttonheader
+				margin-right: 20px
+			button.signup
+				+buttonheader
+				background: $signup
+				margin-right: 65px
+			b
+				margin-right: 40px
+				margin-left: 5px
+			img 
+				margin-top: 15pxs
+
+	div.content
+		div.khoi1
+			width: 100%
+			height: 410px
+			background: url("images/cogai.png")
+			div.register
+				width: $widthregister
+				background: $xanhnhat
+				height: 410px
+				float: left
+				p.title
+					font:
+						size: 38px
+					color: $mautrang
+					margin-top: 35px
+					margin-left: 55px
+				p.content
+					color: $mautrang
+					font-size: 12px
+					line-height: 18px
+					margin-left: 55px
+					word-spacing: 3px
+				form
+					margin-top: 25px
+					margin-left: 55px
+					#email
+						width: 445px
+						height: 35px
+						border: 0px
+						border-radius: 3px
+						margin-bottom: 15px
+						padding: 15px
+						box-sizing: border-box
+					#pass 
+						width: 220px
+						height: 35px
+						border: 0px
+						border-radius: 3px
+						margin-bottom: 15px
+						padding: 15px
+						box-sizing: border-box
+					#phone 
+						width: 220px
+						height: 35px
+						border: 0px
+						border-radius: 3px
+						margin-bottom: 15px
+						padding: 15px
+						box-sizing: border-box
+				.orange
+					display: inline-block
+					width: 220px
+					height: 65px
+					border: 0px
+					background: #e0741d
+					float:left
+					margin-left: 55px
+					text-align: center
+					box-sizing: border-box
+					color: $mautrang
+					padding: 15px
+					p:nth-child(1)
+						font-size: 19px
+					p:last-child
+						font-size: 10px
+				.green
+					display: inline-blocks
+					width: 220px
+					height: 65px
+					border: 0px
+					background: #72a61a
+					float: right
+					margin-right: 36px
+					text-align: center
+					box-sizing: border-box
+					padding: 15px
+
+					p:nth-child(1)
+						font-size: 19px
+						color: $mautrang
+					p:last-child
+						font-size: 10px
+						color: $mautrang
+				.cuoicung
+					font-size: 9px
+					margin-top: 20px
+					margin-left: 60px
+					color: $mauchuheader
+					span
+						color: $mautrang
+			div.banner 
+				width: ($widthwrapper - $widthregister)
+				height: 410px
+				float: right
+				position: relative
+				img
+					position: absolute
+					top: 10px
+					right: 155px
+
+	div.thuonghieu
+		width: 100%
+		height: 100px
+		border-bottom: 1px solid gray
+		p
+			font:
+				size: 12px
+			line-height: 100px
+			padding-left: 100px
+			color: $mauchuheader
+			display: inline-block
+		div.logo
+			float: right
+			padding-right: 340px
+			padding-top: 25px
+			img 
+				width: 50px
+				height: 50px
+				margin-left: 35px
+
+	div.gioithieu
+		width: 100%
+		height: 480px
+		border-bottom: 1px solid gray
+		p
+			text-align: center
+			margin-top: 45px
+			font:
+				size: 23px
+		div.cackhoi
+			margin-top: 55px
+			//border-bottom: 1px solid gray
+			div.motkhoi:first-child
+				margin-left: 105px
+			div.motkhoi
+				width: 220px
+				float: left
+				margin-left: 75px
+				
+				div.chuaanh
+					padding: auto
+					margin-left: 30%
+					img
+						width: 100px
+						height: 100px
+						text-align: center
+				div.title
+					text-align: center
+					font:
+						size: 18px
+					color: #0f5599
+					margin-top: 55px
+					margin-bottom: 25px
+				p
+					font:
+						size: 14px
+	
+	div.camnhan
+		width: 100%
+		height: 245px
+		border-bottom: 1px solid gray
+		div.khoi1
+			width: 710px
+			height: 245px
+			float: left
+			margin-left: 100px
+			margin-top: 55px
+			span
+				display: inline-block
+				font:
+					size: 19px
+				margin-bottom: 25px
+			p
+				font:
+					size: 12px
+				margin-bottom: 50px
+		img
+			margin-left: 186px
+			margin-top: 40px
+
+	div#footer
+		clear: both
+		height: 265px
+		width: 100%
+		div.khoifooter
+			width: ($widthwrapper / 4)
+			float: left
+			h3
+				margin-left: 105px
+				padding-bottom: 15px
+				font-size: 12px
+			ul
+				list-style: none
+				margin-left: 105px
+				li
+					color: #67adcd
+					font-size: 10px
+			p
+				padding-top: 0px
+				font-size: 10px
+				padding-bottom: 5px
+		p
+			clear: both
+			padding-top: 50px
+			padding-left: 105px
+
+			
+				
+
+		
+
